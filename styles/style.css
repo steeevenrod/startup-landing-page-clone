@@ -40,11 +40,19 @@ button {
 	color: #333333;
 }
 .introduction {
-    background-image: url('../images/first-background.jpg');
+    background-image: url('https://photos-3.dropbox.com/t/2/AAAHnoDl24t2-a8Ndn69NQRmzCuJSzpLjhPf3Xz3aa0lnw/12/357404183/jpeg/32x32/3/1454882400/0/2/first-background%20copy.jpg/ENSM5ecCGEsgAigC/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size_mode=3&size=1280x960');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
     margin:0 auto;
    
+}
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
