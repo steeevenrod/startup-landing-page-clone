@@ -1,58 +1,184 @@
-body {
-	background: LightGray;
+* {
+	border-style: solid orange;
 }
-div{
-	border: 1px;
-}
-/* Navigation Section*/
 
-.top-navigation {
-	background-color: #fff;
-	float: right;
+* {
+	box-sizing: border-box;
 }
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
-}
-.top-navigation .links {
+
+body {
 	font-family: 'Roboto', sans-serif;
-font-size: 16px;
-color: #838994;
-letter-spacing: 0.03em;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em
+	-webkit-font-smoothing: antialiased;
 }
-.top-navigation . links li {
-	display: inline-block;
-	margin-left: 25px;
+
+.content-intro h1, .content-intro h3 {
+	color:white;
+	text-align: center;
+	font-weight: 300;
 }
-.top-navigation .links .active {
-	color: #4c5058;
-	font-weight: 500;
+.content-intro h1{
+	font-size: 3.125rem;
+	color: white;
+	margin-top: 17.5rem;
 }
-button {
+.content-intro h3 {
+	font-size: 1.563rem;
+	margin-top: 1.25rem;
+}
+.introduction-intro {
+	overflow: auto;
+}
+.introduction-devices h1 {
+	text-align: center;
+	font-size: 3.125rem;
+	color: black;
+	margin-top: 5rem;
+	font-weight: 300;
+}
+.devices h2 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+	color: black;
+}
+.big-button {
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 1rem 1.5rem;
+    padding: 16px 26px;
+    line-height: 1.33;
+    display: block;
+    margin: 0 auto;
+    width: 9.688rem ;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    font-size: 1.125rem ;
+    color: #fff ;
+    margin-top: ;
+    margin-bottom;
 }
-.top-navigation . links li:hover {
+.big-button:hover {
+    cursor: pointer;
+    background-color: #D9400E;
+}
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	height: 4.375rem;
+}
+.content{
+	padding: 0px 15px;
+	width: 60rem;
+	margin: 0 auto;
+}
+.top-logo {
+	height: 70px;
+	padding-bottom: 0.5rem;
+}
+}
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    margin-top: 25px;
+}
+.top-navigation . links li {
+	float: right;
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+} 
+.top-navigation .links li:hover {
 	cursor: pointer;
 	color: #333333;
 }
-.introduction {
-    background-image: url('https://photos-3.dropbox.com/t/2/AAAHnoDl24t2-a8Ndn69NQRmzCuJSzpLjhPf3Xz3aa0lnw/12/357404183/jpeg/32x32/3/1454882400/0/2/first-background%20copy.jpg/ENSM5ecCGEsgAigC/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size_mode=3&size=1280x960');
+
+.introduction-intro {
+    background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
-    margin:0 auto;
    
 }
-.cases .devices {
-	width: 33.3333333%;
+.introduction-devices {
+	width: 60rem;
+    height: 4.375rem;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    display: block;
+    min-height: 27rem;
+}
+.devices {
 	display: inline-block;
-	/* styles to assist with debugging */
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
+	width: 33.3333333%;
+	float: left;
+	text-align: center;
+	height: 15rem;
+	padding-bottom: 5rem;
+}
+.icon-devices {
+	width: 7.938rem;
+	height: 7.938rem;
+	vertical-align: center;
+	position: center;
+	display: inline-block;
+}
+.introduction-social, .content-social{
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
+	padding-bottom: 5rem;
+	text-align: center;
+}
+.content-social hr {
+	border: 0;
+	border-top: 1px solid #eaebec
+    margin: 1.313rem 0;
+}
+.content-social p {
+	color: black;
+}
+
+.icons-social {
+	margin-left: -2rem;
+	margin-top: -4rem;
+}
+.icons-social li {
+    display: inline-block; 
+    list-style-type: none;
+    border-radius: 100%;
+    border: 1px solid #eaebec;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 5rem 0.5rem;
+    padding: 0.625rem 0;  
+    text-align: center;
+}
+
+
+
+.icons-social li:nth-child(1) {  
+  color: #55acee;
+}
+
+.icons-social li:nth-child(2) {  
+  color: #4c66a4;
+}
+
+.icons-social li:nth-child(3) {  
+  color: #3f729b;
+}
+
+.copy {
+    margin-top: -20;   
 }
